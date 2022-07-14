@@ -1,0 +1,75 @@
+footer{
+  position: relative;
+  margin: 2% 0;
+  .container-footer{
+    border-top: 1px solid #ffffff;
+  }
+  .help-project{
+    .text-help{
+      color: #ffffff;
+      text-align: right;
+    }
+    .btn-help{
+      //position: absolute;
+      text-align: right;
+      //margin-right: 2.5%;
+    }
+  }
+  li {
+    list-style-type: none;
+  }
+  a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .main-link-footer{
+    font-weight: bold;
+  }
+  .link-footer{
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s linear;
+    &:hover{
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+  .top-line{
+    border-top: 1px solid #ffffff;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+  }
+  .simple-text-left{
+    text-align: left;
+    color: rgba(255,255,255,0.5);
+  }
+  .simple-text-right{
+    text-align: right;
+    color: rgba(255,255,255,0.5);
+  }
+  i{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  .btn-icon {
+    position: relative;
+    border-radius: 12px;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    text-align: center;
+    top: 2px;
+
+    .lab {
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      font-size: 26px;
+      transition: 0.5s linear;
+      &:hover {
+        color: rgba(255, 255, 255);
+      }
+    }
+  }
+}
